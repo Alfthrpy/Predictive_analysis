@@ -10,12 +10,6 @@ Salah satu pendekatan yang kini banyak digunakan untuk mengatasi permasalahan in
 
 Beberapa penelitian sebelumnya telah menunjukkan bahwa algoritma machine learning seperti Random Forest, Support Vector Machine (SVM), dan Neural Networks mampu memberikan akurasi tinggi dalam mendeteksi website phishing [3], [4]. Melalui penelitian ini, akan dibangun sebuah sistem analisis prediktif berbasis data Phishing Websites Dataset, dengan tujuan membandingkan kinerja berbagai model klasifikasi serta mengidentifikasi fitur yang paling berpengaruh terhadap prediksi phishing.
 
-**Rubrik/Kriteria Tambahan (Opsional)**:
-- Jelaskan mengapa dan bagaimana masalah tersebut harus diselesaikan
-- Menyertakan hasil riset terkait atau referensi. Referensi yang diberikan harus berasal dari sumber yang kredibel dan author yang jelas.
-- Format Referensi dapat mengacu pada penulisan sitasi [IEEE](https://journals.ieeeauthorcenter.ieee.org/wp-content/uploads/sites/7/IEEE_Reference_Guide.pdf), [APA](https://www.mendeley.com/guides/apa-citation-guide/) atau secara umum seperti [di sini](https://penerbitdeepublish.com/menulis-buku-membuat-sitasi-dengan-mudah/)
-- Sumber yang bisa digunakan [Scholar](https://scholar.google.com/)
-
 ## Business Understanding
 
 Saat ini, masih banyak sistem keamanan yang menggunakan metode blacklist atau rule-based yang hanya bisa mendeteksi website phishing yang sudah dikenal. Pendekatan tersebut lemah dalam menghadapi serangan phishing baru yang belum terdaftar atau memiliki pola baru (zero-day attack). Oleh karena itu, dibutuhkan pendekatan yang lebih adaptif seperti machine learning untuk mendeteksi phishing berdasarkan pola-pola umum dalam struktur dan karakteristik situs.
@@ -36,7 +30,7 @@ Saat ini, masih banyak sistem keamanan yang menggunakan metode blacklist atau ru
 
 2. Menerapkan pendekatan machine learning yang dapat mengenali pola baru dari data phishing, sehingga mampu mendeteksi website phishing meskipun belum pernah muncul sebelumnya.
 
-3. Menganalisis dan membandingkan beberapa algoritma machine learning untuk menemukan model dengan performa terbaik berdasarkan metrik evaluasi seperti akurasi, precision, recall, dan F1-score.
+3. Menganalisis dan membandingkan beberapa algoritma machine learning untuk menemukan model dengan performa terbaik berdasarkan metrik evaluasi akurasi
 
 
 ### Solution Statements
@@ -46,12 +40,6 @@ Beberapa algoritma machine learning yaitu Logistic Regression, Random Forest dan
 2. Menelusuri feature importance untuk interpretabilitas model
 Untuk menambah nilai interpretasi dari sistem yang dibangun, akan dilakukan analisis terhadap fitur mana yang paling berpengaruh dalam klasifikasi phishing, sehingga bisa menjadi insight tambahan bagi praktisi keamanan.
 
-**Rubrik/Kriteria Tambahan (Opsional)**:
-- Menambahkan bagian “Solution Statement” yang menguraikan cara untuk meraih goals. Bagian ini dibuat dengan ketentuan sebagai berikut: 
-
-    ### Solution statements
-    - Mengajukan 2 atau lebih solution statement. Misalnya, menggunakan dua atau lebih algoritma untuk mencapai solusi yang diinginkan atau melakukan improvement pada baseline model dengan hyperparameter tuning.
-    - Solusi yang diberikan harus dapat terukur dengan metrik evaluasi.
 
 ## Data Understanding
 Dataset yang digunakan dalam proyek ini adalah [Phishing Websites Dataset](https://archive.ics.uci.edu/dataset/327/phishing+websites). yang diperoleh dari UCI Machine Learning Repository. Dataset ini disusun oleh Mohammad et al. dan terdiri dari kumpulan fitur yang mencerminkan karakteristik teknikal dan visual dari suatu website, yang dapat digunakan untuk membedakan antara situs phishing dan situs yang sah (legit).
@@ -348,13 +336,13 @@ Untuk mengecek korelasi, pada datasets ini, digunakan teknik **Chi-Square Test o
 
 Pada hasil perhitungan Chi-square, terdapat beberapa fitur yang memiliki nilai chi-square tinggi, seperti ssfinal_state dan fitur lain. Fitur yang memiliki chi-square besar, maka akan memiliki nilai `p-value` yang kecil. Semakin kecil nilai `p`, maka semakin memiliki hubungan yang signifikan dengan target.
 
-**Rubrik/Kriteria Tambahan (Opsional)**:
-- Melakukan beberapa tahapan yang diperlukan untuk memahami data, contohnya teknik visualisasi data atau exploratory data analysis.
-
 ## Data Preparation
-Tahapan Data preparation dalam studi kasus ini adalah **Dimension Reduction** dan **Splitting Data**. Data prepration yang lain seperti normalisasi tidak dilakukan, karena hasil dimensi reduksi data sudah bentuk yang ternormalisasi.
+Tahapan Data preparation dalam studi kasus ini adalah **Dimension Reduction** dan **Splitting Data**.
+
 ### Dimension Reduction
 Multiple Correspondence Analysis (MCA) digunakan untuk mereduksi dimensi data yang seluruh fiturnya bertipe kategori karena metode ini dirancang khusus untuk menangkap pola dan hubungan antar kategori. Berbeda dengan PCA yang hanya cocok untuk data numerik, MCA mampu merepresentasikan data kategorikal ke dalam bentuk numerik berdimensi lebih rendah, sehingga memudahkan visualisasi dan analisis tanpa kehilangan informasi penting dari struktur asli data.
+
+Reduksi MCA diperlukan dalam studi kasus ini karena melihat banyaknya fitur yang ada, yaitu 30 fitur. jadi untuk mengurangi beban komputasi dan menghindari Curse of Dimensionality, maka dilakukan reduksi dimensi dengan MCA
 
 Data di reduksi menjadi 15 component, dimana 15 component ini sudah mewakili 70% variance dari data
 
@@ -384,10 +372,6 @@ Total # of sample in whole dataset: 11055
 Total # of sample in train dataset: 8844
 Total # of sample in test dataset: 2211
 ```
-
-**Rubrik/Kriteria Tambahan (Opsional)**: 
-- Menjelaskan proses data preparation yang dilakukan
-- Menjelaskan alasan mengapa diperlukan tahapan data preparation tersebut.
 
 
 ## Modeling
@@ -446,11 +430,6 @@ Random Forest dipilih sebagai model terbaik karena memberikan akurasi tertinggi 
 
 Tahapan ini membahas mengenai model machine learning yang digunakan untuk menyelesaikan permasalahan. Anda perlu menjelaskan tahapan dan parameter yang digunakan pada proses pemodelan.
 
-**Rubrik/Kriteria Tambahan (Opsional)**: 
-- Menjelaskan kelebihan dan kekurangan dari setiap algoritma yang digunakan.
-- Jika menggunakan satu algoritma pada solution statement, lakukan proses improvement terhadap model dengan hyperparameter tuning. **Jelaskan proses improvement yang dilakukan**.
-- Jika menggunakan dua atau lebih algoritma pada solution statement, maka pilih model terbaik sebagai solusi. **Jelaskan mengapa memilih model tersebut sebagai model terbaik**.
-
 ## Evaluation
 
 Pada proyek ini, metrik utama yang digunakan untuk mengevaluasi performa model adalah **akurasi**. Akurasi mengukur proporsi prediksi yang benar (baik positif maupun negatif) dibandingkan dengan seluruh jumlah prediksi yang dilakukan oleh model.
@@ -487,11 +466,22 @@ Sebagai contoh, Anda memiih kasus klasifikasi dan menggunakan metrik **akurasi, 
 
 Ingatlah, metrik evaluasi yang digunakan harus sesuai dengan konteks data, problem statement, dan solusi yang diinginkan.
 
-**Rubrik/Kriteria Tambahan (Opsional)**: 
-- Menjelaskan formula metrik dan bagaimana metrik tersebut bekerja.
-
 ## Feature Importance
+![alt text](/images/image-33.png)
+Dari model terbaik yang dipilih, yaitu random forest. fitur yang paling berpengaruh itu adalah fitur `component 2`. `component 2` ini merupakan hasil dari reduksi fitur MCA.
 
+    0     double_slash_redirecting__-1          2.106617
+    1           shortining_service__-1          2.093770
+    2                 abnormal_url__-1          1.715935
+    3                  https_token__-1          1.713671
+    4                      redirect__1          1.608653
+    5                   rightclick__-1          1.303717
+    6                       iframe__-1          1.178926
+    7                         port__-1          1.013857
+
+Lalu fitur fitur yang banyak berkontribusi untuk `component 2` ini yaitu double_slash_redirecting dan fitur fitur lain yang ada di tabel diatas. Data itu didapat dari `column_coordinates` dari hasil reduksi dengan MCA
+
+Dapat dilihat bahwa double slash dan shortining service memiliki kontribusi besar di componen 2, sehingga dapat menjadi indikasi bahwa fitur-fitur tersebut berperan penting dalam membedakan antara URL phishing dan non-phishing. Oleh karena itu, fitur-fitur ini layak mendapat perhatian lebih dalam proses deteksi phishing, baik untuk analisis lanjutan maupun pengembangan model yang lebih akurat dan interpretatif.
 
 
 ## Referensi
@@ -503,6 +493,3 @@ Ingatlah, metrik evaluasi yang digunakan harus sesuai dengan konteks data, probl
 
 [4] A. K. Jain and B. B. Gupta, “Phishing detection: Analysis of visual similarity-based approaches,” Security and Privacy, vol. 1, no. 1, 2018. doi: 10.1002/spy2.9
 
-_Catatan:_
-- _Anda dapat menambahkan gambar, kode, atau tabel ke dalam laporan jika diperlukan. Temukan caranya pada contoh dokumen markdown di situs editor [Dillinger](https://dillinger.io/), [Github Guides: Mastering markdown](https://guides.github.com/features/mastering-markdown/), atau sumber lain di internet. Semangat!_
-- Jika terdapat penjelasan yang harus menyertakan code snippet, tuliskan dengan sewajarnya. Tidak perlu menuliskan keseluruhan kode project, cukup bagian yang ingin dijelaskan saja.
