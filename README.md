@@ -122,143 +122,157 @@ Berikut merupakan persebaran value dalam tiap fitur
     having_ip_address   jumlah sampel   persentase                         
      1                     7262            65.7
     -1                     3793            34.3
-![alt text](/images/image.png)
+![image](https://github.com/user-attachments/assets/579bb553-e00a-4985-a41d-1656b4c30511)
+
 
 ##### Kolom: shortining_service
     shortining_service   jumlah sampel   persentase
            1                9611            86.9
           -1                1444            13.1
-![alt text](/images/image-1.png)
+![image-1](https://github.com/user-attachments/assets/b111877f-c0e2-4b6c-95e3-34167d263818)
+
 
 ##### Kolom: having_at_symbol
     having_at_symbol   jumlah sampel   persentase
              1              9400            85.0
             -1              1655            15.0
-![alt text](/images/image-2.png)
+
+![image-2](https://github.com/user-attachments/assets/ebf7e27b-59af-4940-8903-8822bfc78ab7)
 
 ##### Kolom: double_slash_redirecting
     double_slash_redirecting   jumlah sampel   persentase
              1                     9626            87.1
             -1                     1429            12.9
-![alt text](/images/image-3.png)
+
+![image-3](https://github.com/user-attachments/assets/47c33893-9d1d-4592-8a31-7efa7eccc510)
 
 ##### Kolom: prefix_suffix
     prefix_suffix   jumlah sampel   persentase
          -1             9590            86.7
           1             1465            13.3
-![alt text](/images/image-4.png)
 
+![image-4](https://github.com/user-attachments/assets/67f335f6-b953-403f-9cfc-12b82eebb670)
 
 ##### Kolom: domain_registration_length
     domain_registration_length   jumlah sampel   persentase
         -1                                7389        66.8
          1                                3666        33.2
-![alt text](/images/image-5.png)
+
+![image-5](https://github.com/user-attachments/assets/451b385a-bb0b-4baa-88af-76ac3ef51f09)
 
 
 ##### Kolom: favicon
     favicon   jumlah sampel   persentase
          1            9002            81.4
         -1            2053            18.6
-![alt text](/images/image-6.png)
-
+![image-6](https://github.com/user-attachments/assets/61faf8f4-c0c2-4eaf-a1a5-c99909b1f20f)
 
 ##### Kolom: port
     port   jumlah sampel   persentase
      1        9553            86.4
     -1        1502            13.6
-![alt text](/images/image-7.png)
 
+![image-7](https://github.com/user-attachments/assets/9454f8df-4be8-49b2-8027-f8b439d02c70)
 
 ##### Kolom: https_token
     https_token   jumlah sampel   persentase
          1            9259            83.8
         -1            1796            16.2
-![alt text](/images/image-8.png)
+
+![image-8](https://github.com/user-attachments/assets/87601ba8-9b17-4e69-90a7-2f9bb715166d)
 
 ##### Kolom: request_url
     request_url   jumlah sampel   persentase
          1            6560            59.3
         -1            4495            40.7
-![alt text](/images/image-9.png)
 
+![image-9](https://github.com/user-attachments/assets/e15bf8c7-0491-45d6-a149-1ed262921fdc)
 
 ##### Kolom: submitting_to_email
     submitting_to_email   jumlah sampel   persentase
              1                 9041            81.8
             -1                 2014            18.2
-![alt text](/images/image-10.png)
 
+![image-10](https://github.com/user-attachments/assets/a9cf69f3-e210-4088-90d5-e71f5de924a8)
 
 ##### Kolom: abnormal_url
     abnormal_url   jumlah sampel   persentase
          1             9426            85.3
         -1             1629            14.7
-![alt text](/images/image-11.png)
+
+![image-11](https://github.com/user-attachments/assets/4d8c837d-5184-4c44-a761-a54aefb997bb)
 
 
 ##### Kolom: redirect
     redirect   jumlah sampel   persentase
         0          9776            88.4
         1          1279            11.6
-![alt text](/images/image-12.png)
 
+![image-12](https://github.com/user-attachments/assets/7f3c41c6-6d78-4d47-98ce-ce80b5b34652)
 
 ##### Kolom: on_mouseover
     on_mouseover   jumlah sampel   persentase
          1             9740            88.1
         -1             1315            11.9
-![alt text](/images/image-13.png)
 
+![image-13](https://github.com/user-attachments/assets/dfca1603-a7a2-4f9d-8c65-1ff4783b3c12)
 
 ##### Kolom: rightclick
     rightclick   jumlah sampel   persentase
          1           10579            95.7
         -1             476              4.3
-![alt text](/images/image-14.png)
+![image-14](https://github.com/user-attachments/assets/c996f4e7-6c26-4d12-a95e-f7ec0ab9ad3d)
+
 
 
 ##### Kolom: popupwindow
     popupwindow   jumlah sampel   persentase
          1             8918            80.7
         -1             2137            19.3
-![alt text](/images/image-15.png)
+
+![image-15](https://github.com/user-attachments/assets/99b6801a-0c44-464c-b143-9fa556fd68ce)
 
 ##### Kolom: iframe
     iframe   jumlah sampel   persentase
        1          10043            90.8
       -1           1012             9.2
-![alt text](/images/image-16.png)
+
+![image-16](https://github.com/user-attachments/assets/d74b7064-2b72-4ab6-9418-d160b0c4e9a0)
 
 ##### Kolom: age_of_domain
     age_of_domain   jumlah sampel   persentase
            1              5866            53.1
           -1              5189            46.9
-![alt text](/images/image-17.png)
+
+![image-17](https://github.com/user-attachments/assets/c7c303e8-f4bc-4bd7-84e2-02584d229859)
 
 ##### Kolom: dnsrecord
     dnsrecord   jumlah sampel   persentase
          1           7612            68.9
         -1           3443            31.1
-![alt text](/images/image-18.png)
+
+![image-18](https://github.com/user-attachments/assets/91e5c235-5048-407e-8574-8365528c43ea)
 
 ##### Kolom: page_rank
     page_rank   jumlah sampel   persentase
         -1          8201            74.2
          1          2854            25.8
-![alt text](/images/image-19.png)
+
+![image-19](https://github.com/user-attachments/assets/da8b00c7-8230-459a-aa9b-2ce5225cf9ff)
 
 ##### Kolom: google_index
     google_index   jumlah sampel   persentase
            1            9516            86.1
           -1            1539            13.9
-![alt text](/images/image-20.png)
+
+![image-20](https://github.com/user-attachments/assets/fc9adbd2-55bc-4d85-8f9e-3ce71243071a)
 
 ##### Kolom: statistical_report
     statistical_report   jumlah sampel   persentase
              1               9505            86.0
             -1               1550            14.0
-![alt text](/images/image-21.png)
+
+![image-21](https://github.com/user-attachments/assets/63099dde-d304-4e9c-ac9a-023b48b210a3)
 
 ##### Kolom: links_pointing_to_page
     links_pointing_to_page   jumlah sampel   persentase
@@ -266,60 +280,70 @@ Berikut merupakan persebaran value dalam tiap fitur
                   1                4351            39.4
                  -1                 548             5.0
 
-![alt text](/images/image-29.png)
+
+![image-29](https://github.com/user-attachments/assets/fd264ba7-52af-402d-8beb-3b7f238f168d)
 
 ##### Kolom: web_traffic
     web_traffic   jumlah sampel   persentase
             1           5831            52.7
            -1           2655            24.0
             0           2569            23.2
-![alt text](/images/image-28.png)
+
+![image-28](https://github.com/user-attachments/assets/5ad1562a-401e-4234-a745-232bdf04073d)
 
 ##### Kolom: sfh
     sfh   jumlah sampel   persentase
     -1          8440            76.3
      1          1854            16.8
      0           761             6.9
-![alt text](/images/image-27.png)
+
+![image-27](https://github.com/user-attachments/assets/84df73bd-a38f-488e-aab8-1f2ed1925bb4)
 
 ##### Kolom: links_in_tags
     links_in_tags   jumlah sampel   persentase
             0             4449            40.2
            -1             3956            35.8
             1             2650            24.0
-![alt text](/images/image-26.png)
+
+![image-26](https://github.com/user-attachments/assets/2fc4b8be-c438-40c8-b39f-3799bc9cc022)
 
 ##### Kolom: url_of_anchor
     url_of_anchor   jumlah sampel   persentase
             0             5337            48.3
            -1             3282            29.7
             1             2436            22.0
-![alt text](/images/image-25.png)
+
+![image-25](https://github.com/user-attachments/assets/b8f1abe0-5fc5-4934-9cdb-48e96ec873ca)
 
 ##### Kolom: sslfinal_state
     sslfinal_state   jumlah sampel   persentase
               1            6331            57.3
              -1            3557            32.2
               0            1167            10.6
-![alt text](/images/image-24.png)
+
+![image-24](https://github.com/user-attachments/assets/9756f410-744d-44a2-b7ae-d5981c012b6e)
 
 ##### Kolom: having_sub_domain
     having_sub_domain   jumlah sampel   persentase
                  1             4070            36.8
                  0             3622            32.8
                 -1             3363            30.4
-![alt text](/images/image-23.png)
+
+![image-23](https://github.com/user-attachments/assets/89d58d0c-4e87-4c90-94ae-04caa68d41b8)
 
 ##### Kolom: url_length
     url_length   jumlah sampel   persentase
           -1           8960            81.0
            1           1960            17.7
            0            135             1.2
-![alt text](/images/image-22.png)
+
+![image-22](https://github.com/user-attachments/assets/603e518d-6683-4984-a7e1-6d464b76476d)
 
 #### Multivariate Analysis
 ##### Multiple Correspondence Analysis
-![alt text](/images/image-30.png)
+
+![image-30](https://github.com/user-attachments/assets/f4b3d554-b45e-4e6a-99f5-2a2c7ad99038)
+
 Distribusi berlapis atau terpisah di area tertentu menunjukkan bahwa komponen hasil MCA mampu memetakan perbedaan antara kelas phishing dan non-phishing ke dalam dimensi lebih rendah.
 
 Observasi dengan label yang sama cenderung terkonsentrasi di wilayah tertentu dalam ruang MCA.
@@ -330,7 +354,8 @@ Overlap sebagian juga terlihat, artinya meskipun ada pemisahan, masih ada tumpan
 
 
 #### Chi-Square Test of Independence
-![alt text](/images/image-31.png)
+
+![image-31](https://github.com/user-attachments/assets/f868247a-67e5-4431-a357-4b6080f1048c)
 
 Untuk mengecek korelasi, pada datasets ini, digunakan teknik **Chi-Square Test of Independence**, yaitu uji statistik yang digunakan untuk menentukan apakah dua variabel kategorikal memiliki hubungan atau saling bebas (independen) satu sama lain.
 
@@ -346,7 +371,8 @@ Reduksi MCA diperlukan dalam studi kasus ini karena melihat banyaknya fitur yang
 
 Data di reduksi menjadi 15 component, dimana 15 component ini sudah mewakili 70% variance dari data
 
-![alt text](/images/image-32.png)
+
+![image-32](https://github.com/user-attachments/assets/97e8a25b-bad9-4fab-9a71-e5c633e05b82)
 
 MCA dimulai dengan membuat tabel kontingensi yang menunjukkan frekuensi setiap kemungkinan kombinasi kategori. Hasil MCA tidak perlu standardisasi karena semua data input-nya sudah dalam bentuk kategori (dan MCA berbasis kontingensi, bukan magnitudo nilai).
 
@@ -467,7 +493,9 @@ Sebagai contoh, Anda memiih kasus klasifikasi dan menggunakan metrik **akurasi, 
 Ingatlah, metrik evaluasi yang digunakan harus sesuai dengan konteks data, problem statement, dan solusi yang diinginkan.
 
 ## Feature Importance
-![alt text](/images/image-33.png)
+
+![image-33](https://github.com/user-attachments/assets/fa194ed4-1d8b-4169-b969-0ac31b3965ea)
+
 Dari model terbaik yang dipilih, yaitu random forest. fitur yang paling berpengaruh itu adalah fitur `component 2`. `component 2` ini merupakan hasil dari reduksi fitur MCA.
 
     0     double_slash_redirecting__-1          2.106617
