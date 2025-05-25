@@ -46,7 +46,7 @@ Dataset yang digunakan dalam proyek ini adalah [Phishing Websites Dataset](https
 
 Nilai -1, 0, dan 1 pada dataset ini tidak selalu merepresentasikan urutan (ordinal) atau level yang konsisten secara semantik. Beberapa fitur menggunakan nilai tersebut untuk menyatakan klasifikasi (legit/suspicious/phishing), sementara fitur lain hanya menyatakan kehadiran atau ketiadaan karakteristik teknis tertentu (boolean). Oleh karena itu, interpretasi nilai harus dilihat per fitur berdasarkan deskripsi asalnya.
 
-
+Dalam Datasets ini, terdapat 30 kolom dengan value integer, namun merepresentasikan sebuah kategori atau kelas.
 
 ### Variabel-variabel pada Phising Websites Dataset
 Berdasarkan [Introduction Paper](https://www.semanticscholar.org/paper/An-assessment-of-features-related-to-phishing-using-Mohammad-Thabtah/0c0ff58063f4e078714ea74f112bc709ba9fed06) dalam sumber dataset, berikut merupakan penjelasan tiap variable dalam dataset:
